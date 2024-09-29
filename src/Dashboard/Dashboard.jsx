@@ -7,7 +7,7 @@ const Dashboard = () => {
     <div className="px-4">
       <div className="w-full mx-auto">
         <div className="bg-white rounded-3xl p-8 mb-5">
-          <h1 className="text-3xl font-bold mb-10">Demo Dashboard development for the book inventory</h1>
+          <h1 className="text-3xl font-bold mb-10">Admin Dashboard</h1>
           <div className="flex items-center justify-between">
             <div className="flex items-stretch">
               <div className="text-gray-400 text-xs">Members <br />connected</div>
@@ -43,7 +43,7 @@ const Dashboard = () => {
               <div className="grid grid-cols-2 gap-4">
                 <div className="col-span-2">
                   <div className="p-4 bg-green-100 rounded-xl">
-                    <div className="font-bold text-xl text-gray-800 leading-none">Good day, <br/> Kristin</div>
+                    <div className="font-bold text-xl text-gray-800 leading-none">Good day, <br/>Rasindu 😊</div>
                     <div className="mt-5">
                       <button type="button" className="inline-flex items-center justify-center py-2 px-3 rounded-xl bg-white text-gray-800 hover:text-green-500 text-sm font-semibold transition">
                         Start tracking

@@ -1,0 +1,203 @@
+[
+    {
+      "bookID": "book1",
+      "bookName": "To Kill a Mockingbird",
+      "inventory": 30
+    },
+    {
+      "bookID": "book2",
+      "bookName": "1984",
+      "inventory": 15
+    },
+    {
+      "bookID": "book3",
+      "bookName": "Pride and Prejudice",
+      "inventory": 40
+    },
+    {
+      "bookID": "book4",
+      "bookName": "The Great Gatsby",
+      "inventory": 25
+    },
+    {
+      "bookID": "book5",
+      "bookName": "Moby Dick",
+      "inventory": 10
+    },
+    {
+      "bookID": "book6",
+      "bookName": "War and Peace",
+      "inventory": 5
+    },
+    {
+      "bookID": "book7",
+      "bookName": "The Catcher in the Rye",
+      "inventory": 12
+    },
+    {
+      "bookID": "book8",
+      "bookName": "The Hobbit",
+      "inventory": 18
+    },
+    {
+      "bookID": "book9",
+      "bookName": "Fahrenheit 451",
+      "inventory": 28
+    },
+    {
+      "bookID": "book10",
+      "bookName": "The Odyssey",
+      "inventory": 22
+    },
+    {
+      "bookID": "book11",
+      "bookName": "Brave New World",
+      "inventory": 14
+    },
+    {
+      "bookID": "book12",
+      "bookName": "Jane Eyre",
+      "inventory": 9
+    },
+    {
+      "bookID": "book13",
+      "bookName": "Wuthering Heights",
+      "inventory": 32
+    },
+    {
+      "bookID": "book14",
+      "bookName": "Frankenstein",
+      "inventory": 6
+    },
+    {
+      "bookID": "book15",
+      "bookName": "Animal Farm",
+      "inventory": 45
+    },
+    {
+      "bookID": "book16",
+      "bookName": "Crime and Punishment",
+      "inventory": 17
+    },
+    {
+      "bookID": "book17",
+      "bookName": "The Lord of the Rings",
+      "inventory": 20
+    },
+    {
+      "bookID": "book18",
+      "bookName": "The Picture of Dorian Gray",
+      "inventory": 13
+    },
+    {
+      "bookID": "book19",
+      "bookName": "The Scarlet Letter",
+      "inventory": 8
+    },
+    {
+      "bookID": "book20",
+      "bookName": "Dracula",
+      "inventory": 19
+    },
+    {
+      "bookID": "book21",
+      "bookName": "The Brothers Karamazov",
+      "inventory": 11
+    },
+    {
+      "bookID": "book22",
+      "bookName": "Les Misérables",
+      "inventory": 23
+    },
+    {
+      "bookID": "book23",
+      "bookName": "Madame Bovary",
+      "inventory": 21
+    },
+    {
+      "bookID": "book24",
+      "bookName": "One Hundred Years of Solitude",
+      "inventory": 24
+    },
+    {
+      "bookID": "book25",
+      "bookName": "Don Quixote",
+      "inventory": 9
+    },
+    {
+      "bookID": "book26",
+      "bookName": "The Grapes of Wrath",
+      "inventory": 7
+    },
+    {
+      "bookID": "book27",
+      "bookName": "The Iliad",
+      "inventory": 16
+    },
+    {
+      "bookID": "book28",
+      "bookName": "The Divine Comedy",
+      "inventory": 35
+    },
+    {
+      "bookID": "book29",
+      "bookName": "A Tale of Two Cities",
+      "inventory": 31
+    },
+    {
+      "bookID": "book30",
+      "bookName": "Great Expectations",
+      "inventory": 27
+    },
+    {
+      "bookID": "book31",
+      "bookName": "The Count of Monte Cristo",
+      "inventory": 12
+    },
+    {
+      "bookID": "book32",
+      "bookName": "The Metamorphosis",
+      "inventory": 33
+    },
+    {
+      "bookID": "book33",
+      "bookName": "The Stranger",
+      "inventory": 14
+    },
+    {
+      "bookID": "book34",
+      "bookName": "The Trial",
+      "inventory": 18
+    },
+    {
+      "bookID": "book35",
+      "bookName": "Mansfield Park",
+      "inventory": 25
+    },
+    {
+      "bookID": "book36",
+      "bookName": "The Sound and the Fury",
+      "inventory": 20
+    },
+    {
+      "bookID": "book37",
+      "bookName": "Lolita",
+      "inventory": 13
+    },
+    {
+      "bookID": "book38",
+      "bookName": "Sense and Sensibility",
+      "inventory": 11
+    },
+    {
+      "bookID": "book39",
+      "bookName": "David Copperfield",
+      "inventory": 26
+    },
+    {
+      "bookID": "book40",
+      "bookName": "The Old Man and the Sea",
+      "inventory": 8
+    }
+  ]
+  

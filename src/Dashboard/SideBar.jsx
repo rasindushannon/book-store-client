@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 import { useContext } from 'react';
 import { AuthContext } from '../contexts/AuthProvider';
 import MobileDashboard from './MobileDashboard';
+import { MdOutlineAnalytics } from "react-icons/md";
 
 const SideBar = () => {
   const {user} = useContext(AuthContext)
@@ -19,7 +20,7 @@ const SideBar = () => {
           imgAlt="Flowbite logo"
         >
           <p>
-            {user?.displayName || "Demo User" }
+            {user?.displayName || "User" }
           </p>
         </Sidebar.Logo>
         <Sidebar.Items>
@@ -29,6 +30,14 @@ const SideBar = () => {
               icon={HiChartPie}>
               <p>
                 Dashboard
+              </p>
+            </Sidebar.Item>
+            <Sidebar.Item
+              href="/admin/dashboard/analytics"
+              icon={MdOutlineAnalytics}
+            >
+              <p>
+                Analytics
               </p>
             </Sidebar.Item>
             <Sidebar.Item
