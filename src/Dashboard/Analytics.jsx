@@ -3,6 +3,8 @@ import { Chart as ChartJS } from 'chart.js/auto'
 import {Bar, Pie} from 'react-chartjs-2'
 import React, { useEffect, useState } from 'react';
 import ChartDataLabels from 'chartjs-plugin-datalabels';
+import SalesperBook from '../Charts/SalesperBook';
+import ViewsperCategory from '../Charts/ViewsperCategory';
 
 
 const Analytics = () => {
@@ -61,70 +63,13 @@ const Analytics = () => {
               {/* Main Content */}
       <div className="flex-1 p-6">
         <h1 className="text-2xl font-semibold mb-6">Dashboard</h1>
+        
 
         {/* Bar Charts Layout */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {/* Chart 1 */}
+          <SalesperBook/>
           
-          <div className="bg-white shadow-md p-4 rounded-lg">
-          <h2 className="text-lg font-semibold mb-4">Sales per Book</h2>
-          <Bar
-              data={{
-                labels: [
-                  "To Kill a Mockingbird", 
-                  "The Alchemist", 
-                  "Harry Potter", 
-                  "Dune", 
-                  "The Catcher in the Rye"
-                ],
-                datasets: [
-                  {
-                    label: "Sales per Book",
-                    data: [120, 85, 140, 95, 70],
-                    backgroundColor: 'rgba(75, 192, 192, 0.6)', // Customize bar color
-                    borderColor: 'rgba(75, 192, 192, 1)',
-                    borderWidth: 1
-                  }
-                ]
-              }}
-              options={{
-                scales: {
-                  y: {
-                    beginAtZero: true
-                  }
-                }
-              }}
-            />
-          </div>
-
-
-
-          {/* Chart 2 */}
-          <div className="bg-white shadow-md p-4 rounded-lg">
-          <h2 className="text-lg font-semibold mb-4">Total Sales per Category</h2>
-          <Bar
-              data={{
-                labels: [
-                  "Fiction", 
-                  "Self-help", 
-                  "Science Fiction", 
-                  "Biography", 
-                  "Fantasy"
-                ],
-                datasets: [
-                  {
-                    label: "Total Sales Per Category",
-                    data: [500, 300, 450, 200, 350], // Replace with actual sales data
-                    backgroundColor: 'rgba(153, 102, 255, 0.6)', // Customize the bar colors
-                    borderColor: 'rgba(153, 102, 255, 1)',
-                    borderWidth: 1,
-                  }
-                ]
-              }}
-
-
-            />
-          </div>
 
           {/* Chart 3 */}
           <div className="bg-white shadow-md p-4 rounded-lg">
@@ -168,6 +113,7 @@ const Analytics = () => {
           {/* Chart 4 */}
           <div className="bg-white shadow-md p-4 rounded-lg">
           <h2 className="text-lg font-semibold mb-4">Views per Category</h2>
+          <ViewsperCategory/>
           <Pie
               data={{
                 labels: [
